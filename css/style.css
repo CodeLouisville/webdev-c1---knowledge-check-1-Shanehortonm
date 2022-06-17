@@ -178,9 +178,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -220,6 +220,14 @@ a:hover, a:active {
     text-transform: uppercase;
 }
 
+.hero-content {
+    display: flex;
+    padding: 10rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .hero-content h1 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -287,6 +295,8 @@ footer {
 .aboutme-photo {
     width: 100%;
     max-width: 320px;
+    border-radius: 20%;
+    border: 2px solid white;
 }
 
 
@@ -297,6 +307,82 @@ footer {
 /* Tables
 ========================================================================== */
 
+/*
+==========================================================================
+Contact Form
+==========================================================================
+*/
+
+.contact-section {
+    background: #29326a;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #ddd;
+}
+
+.contact-section p {
+    text-align: center;
+    color: #ddd;
+    text-size-adjust: 2rem;
+}
+
+.contact-border {
+    width: 300px;
+    height: 5px;
+    background-color: white;
+    margin: 40px auto;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background-color: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+}
+
+/* Create focus effect */
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px rgb(162, 160, 160);
+}
+
+textarea.contact-form-text {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-btn {
+    float: right;
+    border: 0;
+    background: #111;
+    color: #ddd;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: rgba(17, 17, 17, .4);
+}
 
 
 /* 	
